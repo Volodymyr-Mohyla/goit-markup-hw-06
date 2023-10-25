@@ -708,7 +708,7 @@ ul li {
 
 @media (max-width: 1159px) and (min-width: 768px){
     .container {
-        width: 736px;
+        width: 768px;
         padding: 0 16px;
     }
     .address-link{
@@ -767,6 +767,24 @@ ul li {
         line-height: 1.5em; /* 150% */
         letter-spacing: 0.02em; /* 0.32/16 */
     }
+    .third-section {
+        padding: 96px 0;
+    }
+    .list-sec-three {
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+    }
+    .fourth-section {
+        padding: 96px 0;
+    }
+    .list-sec-fourth {
+        row-gap: 72px;
+    }
+    .elem-list-fourth{
+        flex-basis: calc((100% - 1 * 24px) / 2);
+    }
+        
 }
 
 /*------ END 768PX - 1158PX ------*/
