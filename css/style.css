@@ -494,6 +494,14 @@ ul li {
 .adap-menu{
     display: none;
 }
+.footer-sbm {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-sbm:hover,
+.footer-sbm:focus {
+    background-color: #404BBF;
+}
 /*------ END SECTION FOOTER ------*/
 
 
@@ -862,10 +870,33 @@ ul li {
     }
     .footer-logo-text {
         margin-right: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .footer .logo {
+    display: inline-block;
+    margin-bottom: 17.5px;
+    margin-right: 0;
+}
     .div-footer-form {
         margin-left: 0;
+        margin-top: 72px;
     }
-}
+    .footer-p {
+        margin-top: 72px;
+        text-align: center;
+    }
+    .text-footer-form {
+        text-align: center;
+    }
+    .footer-sbm{
+        max-width: 165px;
+    }
+    .footer-form {
+        align-items: center;
+        gap: 16px;
+    }
+}   
 /*------ END 768PX - 1158PX ------*/
 /* ... */
