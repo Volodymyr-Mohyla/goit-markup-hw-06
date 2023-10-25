@@ -699,3 +699,37 @@ ul li {
     background-color: #404BBF;
 }
 /*------ END MODAL WINDOW ------*/
+
+
+
+/**------  768PX - 1158PX ------*/
+
+
+
+@media (max-width: 1158px) and (min-width: 768px){
+    .container {
+        width: 736px;
+        padding: 0 16px;
+    }
+    .address-link{
+        font-size: 12px;
+        line-height: 1.17em;
+        letter-spacing: 0.04em;
+        font-weight: 400;
+    }
+    .address .list-in-adr {
+        flex-direction:column;
+        gap:12px;
+    }
+    .address .elm-list-in-adr{
+        padding: 0;
+    }
+    .head-cont {
+        align-items: center;
+    }
+}
+
+/*------ END 768PX - 1158PX ------*/
+
+
+/* ... */
