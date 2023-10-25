@@ -897,6 +897,14 @@ ul li {
         align-items: center;
         gap: 16px;
     }
+    .first-section {
+        padding: 72px 0;
+    }
+    .first-section .title {
+        line-height: 1.11;
+        font-size: 36px;
+        margin: 0 auto 72px;
+    }
 }   
 /*------ END 768PX - 1158PX ------*/
 /* ... */
