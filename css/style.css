@@ -210,6 +210,9 @@ ul li {
 .capt-sec-sect{
     margin-bottom: 8px;
 }
+.mob-img{
+    display: none;
+}
 .section-two-h-tree{
     font-weight: 500;
     line-height: 1.2;
@@ -1118,6 +1121,12 @@ ul li {
         }
         .block-footer-p{
             margin-top: 72px;
+        }
+        .mob-img{
+            display: block;
+        }
+        .desc-img{
+            display: none;
         }
 }
 
