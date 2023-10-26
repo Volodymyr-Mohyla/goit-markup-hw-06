@@ -722,9 +722,11 @@ ul li {
 
 
 @media (max-width: 1159px) and (min-width: 768px){
+    .logo{
+        margin-right: 120px;
+    }
     .container {
         width: 768px;
-        padding: 0 16px;
     }
     .address-link{
         font-size: 12px;
@@ -887,7 +889,6 @@ ul li {
         margin-top: 72px;
     }
     .footer-p {
-        margin-top: 72px;
         text-align: center;
     }
     .text-footer-form {
