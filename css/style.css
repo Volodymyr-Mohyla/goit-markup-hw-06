@@ -843,7 +843,7 @@ ul li {
         display: none;
     }
     .nav-menu{
-        margin: 17.5px 0 17.5px 0;
+        padding: 17.5px 0 17.5px 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1114,15 +1114,24 @@ ul li {
             justify-content: space-between;
             gap:40px;
         }
+        .span-for-mob{
+
+        }
+        .modal-label-priv {
+            display: flex;
+            align-items: center;
+        }
+        .modal-span-check{
+            flex-shrink: 0;
+        }
 }
 
 
 /*------ END 768PX - 1158PX ------*/
 /* ... */
-
-.is-open {
-    display: block;
-}
 .modal-window-back {
     display: none;
+}
+.is-open {
+    display: block;
 }
