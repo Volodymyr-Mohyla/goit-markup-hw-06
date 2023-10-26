@@ -1124,6 +1124,9 @@ ul li {
         .modal-span-check{
             flex-shrink: 0;
         }
+        .block-footer-p{
+            margin-top: 72px;
+        }
 }
 
 
