@@ -907,6 +907,7 @@ ul li {
         line-height: 1.11;
         font-size: 36px;
         margin: 0 auto 72px;
+        max-width: 165px;
     }
     .icon-cont {
         display: none;
@@ -1055,6 +1056,7 @@ ul li {
         margin-top: 72px;
         margin-left: 16px;
         gap: 40px;
+        margin-bottom: 168px;
     }
         .address-menu-modal {
             font-style: normal;
@@ -1079,13 +1081,10 @@ ul li {
         }
 
         .modal-bottom{
-        left: 0;
-        bottom: 0;
-        position: absolute;
+        padding-top: 128px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        padding-bottom: 40px;
         gap: 48px;
         margin: 0 auto;
         width: 100%;
@@ -1094,8 +1093,36 @@ ul li {
             gap: 40px;
         }
         .menu-modal-window-back {
-            display: block;
+            display: none;
         }
-}   
+        
+        .first-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg.jpg);
+        }
+        @media (min-resolution: 192dpi) {
+            .first-section {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@2.jpg);
+            }
+        }
+        .menu-modal-window{
+            padding-bottom: 40px;
+            padding: 72px 16px 0 16px;
+            width: 320px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:40px;
+        }
+}
+
+
 /*------ END 768PX - 1158PX ------*/
 /* ... */
+
+.is-open {
+    display: block;
+}
+.modal-window-back {
+    display: none;
+}
