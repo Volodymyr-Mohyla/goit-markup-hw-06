@@ -151,10 +151,6 @@ ul li {
     background-color: #2e2f42;
     padding: 188px 0;
     background-repeat: no-repeat;
-    background-image: linear-gradient(
-         rgba(46, 47, 66, 0.70), 
-         rgba(46, 47, 66, 0.70)), 
-         url(../images/people-office.jpg);
     background-position: center;
     background-size: cover;    
 }
@@ -1100,11 +1096,6 @@ ul li {
         .first-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg.jpg);
         }
-        @media (min-resolution: 192dpi) {
-            .first-section {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@2.jpg);
-            }
-        }
         .menu-modal-window{
             padding-bottom: 40px;
             padding: 72px 16px 0 16px;
@@ -1132,10 +1123,56 @@ ul li {
 
 
 /*------ END 768PX - 1158PX ------*/
-/* ... */
+/* ... 
+(max-width: 1159px) and (min-width: 768px) */
 .modal-window-back {
     display: none;
 }
 .is-open {
     display: block;
+}
+
+
+/* TABLET IMAGE*/
+/* tablet image X2*/ 
+@media (min-resolution: 192dpi)  and (min-width: 768px) and (max-width: 1159px){
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet-section-one-bg@2.jpg);
+    }
+}
+/* tablet image X1*/
+@media (min-resolution: 96dpi) and (min-width: 768px) and (max-width: 1159px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet-section-one-bg@1.jpg);
+    }
+}
+
+/* MOBILE IMAGE */
+/* mobile image X1*/
+@media (min-resolution: 96dpi) and (min-width: 320px) and (max-width: 768px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@1.jpg);
+    }
+}
+/* mobile image X2*/
+@media (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 768px) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@2.jpg);
+    }
+}
+
+
+
+/* DESCTOP IMAGE*/
+/* desctop image X1*/
+@media (min-resolution: 192dpi) and (min-width: 1159px){
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/desctop-section-one-bg@1.jpg);
+    }
+}
+/* desctop image X2*/
+@media (min-resolution: 192dpi) and (min-width: 1159px){
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@2.jpg);
+    }
 }
