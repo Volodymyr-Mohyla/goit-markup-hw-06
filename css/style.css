@@ -720,7 +720,7 @@ ul li {
 
 
 
-@media (max-width: 1159px) and (min-width: 768px){
+@media (max-width: 1157px) and (min-width: 768px){
     .tabl-img {
         display: block;
     }
@@ -1151,7 +1151,7 @@ ul li {
 
 /*------ END 768PX - 1158PX ------*/
 /* ... 
-(max-width: 1159px) and (min-width: 768px) */
+(max-width: 1157px) and (min-width: 768px) */
 .modal-window-back {
     display: none;
 }
@@ -1161,9 +1161,9 @@ ul li {
 
 
 /* TABLET IMAGE*/
-@media (min-width: 768px) and (max-width: 1159px) {
+@media (min-width: 768px) and (max-width: 1157px) {
     /* tablet image X1*/
-    @media (min-resolution: 96dpi) {
+    @media (min-resolution: 96dpi) and (max-resolution: 191dpi) {
         .first-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet-section-one-bg@1.jpg);
         }
@@ -1180,7 +1180,7 @@ ul li {
 /* MOBILE IMAGE */
 @media (min-width: 320px) and (max-width: 767px){
     /* MOBILE image X1*/
-    @media (min-resolution: 96dpi) {
+    @media (min-resolution: 96dpi) and (max-resolution: 191dpi) {
         .first-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@1.jpg);
         }
@@ -1196,9 +1196,9 @@ ul li {
 
 
 /* DESCTOP IMAGE*/
-@media (min-width: 1159px) {
+@media (min-width: 1158px) {
     /* desctop image X1*/
-    @media (min-resolution: 96dpi){
+    @media (min-resolution: 96dpi) and (max-resolution: 191dpi){
         .first-section {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/desctop-section-one-bg@1.jpg);
         }
