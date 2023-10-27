@@ -210,7 +210,7 @@ ul li {
 .capt-sec-sect{
     margin-bottom: 8px;
 }
-.mob-img{
+.mob-img, .tabl-img{
     display: none;
 }
 .section-two-h-tree{
@@ -721,6 +721,13 @@ ul li {
 
 
 @media (max-width: 1159px) and (min-width: 768px){
+    .tabl-img {
+        display: block;
+    }
+
+    .desc-img {
+        display: none;
+    }
     .logo{
         margin-right: 120px;
     }
@@ -827,7 +834,7 @@ ul li {
 
 
 
-@media (max-width: 768px) and (min-width: 320px) {
+@media (max-width: 767px) and (min-width: 320px) {
 
     .container {
         /*min-width: 320px;
@@ -970,6 +977,8 @@ ul li {
     .list-sec-fourth {
         flex-direction: column;
         align-items: center;
+        width: 288px;
+        margin: 0 auto;
     }
     .img-list-app > img {
         width: 100%;
@@ -989,6 +998,7 @@ ul li {
         left: 0;
         width: 100%;
         height: 100%;
+        background-color: white;
     }
     .menu-modal {
         position: absolute;
@@ -1060,7 +1070,6 @@ ul li {
     }
         .address-menu-modal {
             font-style: normal;
-            margin-left: 16px;
         }
     
         .address-menu-modal .list-in-adr {
@@ -1081,9 +1090,9 @@ ul li {
         }
 
         .modal-bottom{
-        padding-top: 128px;
+        flex-direction: column;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column
         justify-content: center;
         gap: 48px;
         margin: 0 auto;
@@ -1100,14 +1109,17 @@ ul li {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg.jpg);
         }
         .menu-modal-window{
+            position: relative;
             padding-bottom: 40px;
-            padding: 72px 16px 0 16px;
+            padding: 72px 16px 40px 16px;
             width: 320px;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             gap:40px;
+            height: 100%;
+           background-color: white;
         }
         .span-for-mob{
 
@@ -1124,9 +1136,15 @@ ul li {
         }
         .mob-img{
             display: block;
+            width: 100%;
         }
-        .desc-img{
+        .desc-img-our-team, .desc-img{
             display: none;
+        }
+        .navigation{
+            gap: 40px;
+            flex-direction: column;
+            display: flex;
         }
 }
 
@@ -1158,13 +1176,13 @@ ul li {
 
 /* MOBILE IMAGE */
 /* mobile image X1*/
-@media (min-resolution: 96dpi) and (min-width: 320px) and (max-width: 768px) {
+@media (min-resolution: 96dpi) and (min-width: 320px) and (max-width: 767px) {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@1.jpg);
     }
 }
 /* mobile image X2*/
-@media (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 768px) {
+@media (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px) {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/section-one-bg@2.jpg);
     }
