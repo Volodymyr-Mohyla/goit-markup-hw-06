@@ -1192,7 +1192,7 @@ ul li {
 
 /* DESCTOP IMAGE*/
 /* desctop image X1*/
-@media (min-resolution: 192dpi) and (min-width: 1159px){
+@media (min-resolution: 96dpi) and (min-width: 1159px){
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/desctop-section-one-bg@1.jpg);
     }
